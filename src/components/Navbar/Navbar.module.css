@@ -1,0 +1,28 @@
+.nav {
+    grid-area: n;
+    background-color: #212121;
+ }
+
+ .item{
+    height: 50px;
+}
+
+ .item a{
+    color: white;   
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;  
+    font-size: 15px; 
+    font-weight: 500;   
+ }
+
+ .item a:hover{
+    background-color: #555555;
+ }
+
+ .item a.activeLink {
+     color: #4687ce;
+     background-color: #555555;
+ }

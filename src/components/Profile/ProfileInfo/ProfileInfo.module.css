@@ -1,0 +1,72 @@
+.descriptionBlock{
+    padding: 10px;
+    position: relative;
+    margin-left: 20px;    
+}
+
+b {
+    padding-left: 50px;
+}
+
+h3 {
+    padding-left: 50px;
+}
+
+.mainPhoto {
+    max-width: 200px;
+    border-radius: 50%;
+} 
+.file {
+    display: none;
+}
+input[type=file] {    
+    display: none;
+}
+label{
+    width: 48px;
+    height: 48px;
+    background-image: url(../../../assets/images/icons8-фотоаппарат-48.svg);
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    top: 160px;
+    left: 110px;
+}
+
+.mainPhoto:hover+.file,
+.file:hover {
+    display: inline-block;
+}
+
+.contact {
+    padding-left: 10px;
+}
+
+button {
+    color: #ffffff;
+    background-color: #4687ce;
+    border-color: #4687ce;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.4;
+    border-radius: 4px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    width: 260px;
+}
+.status {
+    position: relative;
+    margin: 10px 0 10px;
+    width: 480px;
+    
+}
+

@@ -1,0 +1,74 @@
+.formControl.error input,
+.formControl.error textarea {
+    border: solid red 2px;
+   
+}
+
+.formControl.error .span {
+    color: red;
+    text-align: center;
+}
+
+.formControl{
+    width: 480px;
+}
+
+.formSummaryError {
+    border: red 1px solid;
+    padding: 5px;
+    color: red;
+    margin: 20px;
+    width: 100%;
+    text-align: center;
+} 
+
+input[type= "checkbox"] {
+    height: 20px;
+    width: 20px;
+   
+  
+}
+
+.checkbox {
+    position: relative;
+}
+
+input, textarea {
+    height: 48px;
+    line-height: 48px;
+    padding: 0 20px;
+    outline: none;
+    font-size: 15px;
+    color: #808080;
+    max-width: 100%;
+    width: 100%;
+    font-weight: 400;
+    opacity: 1;
+    border-radius: 4px;
+    border: none;
+    margin: 20px;
+    
+
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkboxText{
+    cursor: pointer;
+    line-height: 25px;
+    display: block;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 8px;
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+}
+img{
+    width: 100%;
+    margin-left: 20px;
+    
+}
+
